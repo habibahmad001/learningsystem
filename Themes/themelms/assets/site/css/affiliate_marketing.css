@@ -1,0 +1,866 @@
+/* common */
+.affiliate_marketing .z-index-1 {
+  z-index: 1;
+}
+
+.affiliate_marketing .gradient-dark {
+  background: linear-gradient(90deg, #187098 0%, #6d8e23 100%),
+    linear-gradient(0deg, #343a40, #343a40) !important;
+}
+
+.affiliate_marketing .bottom-banner-wrapper .overlay {
+  display: inline !important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* top banner */
+
+.affiliate_marketing .top-banner {
+  color: #ffffff !important;
+}
+
+.affiliate_marketing .top-banner .commission {
+  font-family: Open Sans;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.affiliate_marketing .top-banner .banner-header {
+  font-family: Open Sans;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff !important;
+}
+
+.affiliate_marketing .top-banner .description {
+  font-family: Open Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* form styles */
+
+.affiliate_marketing .form {
+  border-radius: 20px;
+}
+.affiliate_marketing .form-header {
+  background: linear-gradient(90deg, #187098 0%, #6d8e23 100%),
+    linear-gradient(0deg, #343a40, #343a40) !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.affiliate_marketing .form-header h3 {
+  font-family: Open Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.affiliate_marketing .form-description {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.affiliate_marketing select {
+  -webkit-appearance: listbox !important;
+  /*webkit browsers */
+  -moz-appearance: listbox !important;
+  /*Firefox */
+  appearance: listbox !important;
+}
+
+.affiliate_marketing .join-submit-btn {
+  background-color: rgba(81, 172, 55, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.affiliate_marketing .join-submit-btn:hover {
+  background-color: #045f8c;
+}
+
+.affiliate_marketing .affiliate-form option {
+  width: 100px;
+  white-space: wrap;
+}
+
+/* learn with confidance */
+.affiliate_marketing .learn_with_confidance .header {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1) !important;
+}
+
+.affiliate_marketing .learn_with_confidance .img__box {
+  width: 100%;
+  min-height: 100px;
+  line-height: 100px;
+  text-align: left;
+}
+
+.affiliate_marketing .affiliate_section,
+.affiliate_marketing .instructor_Banner,
+.affiliate_marketing .inner__header {
+  padding: 80px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.affiliate_marketing .affiliate_section h3,
+.affiliate_marketing .instructor_Banner h3,
+.affiliate_marketing .inner__header h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 55px;
+  color: #000;
+  margin-top: 0;
+}
+.affiliate_marketing .affiliate_section p,
+.affiliate_marketing .instructor_Banner p,
+.affiliate_marketing .inner__header p {
+  font-size: 18px;
+  padding-top: 16px;
+}
+.affiliate_marketing .affiliate_section a.btn.btn-primary,
+.affiliate_marketing .affiliate__courses a.btn.btn-primary,
+.affiliate_marketing .corprt_Inform_form .btn.btn-primary {
+  min-width: 270px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #51ac37;
+  border-color: #51ac37;
+  text-transform: uppercase;
+  padding: 13px 30px;
+  border-radius: 6px;
+  margin-top: 13px;
+}
+
+.affiliate_marketing .affiliate_form {
+  display: inline-block;
+  width: 100%;
+}
+.affiliate_marketing .affiliate_form p {
+  width: 83%;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+/* tab content */
+
+.affiliate_marketing .panel-help h2 {
+  padding: 11px;
+  font-size: 15px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.affiliate_marketing .list-group.help-group {
+  margin-bottom: 20px;
+  padding-left: 0;
+  margin: 0;
+  .faq-list {
+    display: block;
+    top: auto;
+    margin: 0 0 32px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+    .list-group-item {
+      position: relative;
+      display: block;
+      margin: 0;
+      padding: 13px 16px;
+      background-color: #fff;
+      border: 0;
+      border-bottom: 1px solid #ddd;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+      color: #616161;
+      transition: background-color 0.2s;
+      i.mdi {
+        margin-right: 5px;
+        font-size: 18px;
+        position: relative;
+        top: 2px;
+      }
+      &:hover {
+        background-color: #f6f6f6;
+      }
+      &.active {
+        background-color: #f6f6f6;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.87);
+      }
+      &:last-of-type {
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+.affiliate_marketing .tab-content.panels-faq {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.affiliate_marketing .panel.panel-help {
+  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+  padding-bottom: 0;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 0 0 16px;
+  a[href^="#"],
+  a[href^="#"]:hover,
+  a[href^="#"]:focus {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .panel-heading {
+    background-color: #f6f6f6;
+    padding: 0 16px;
+    line-height: 48px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    color: rgba(0, 0, 0, 0.87);
+    h2 {
+      margin: 0;
+      padding: 14px 0 14px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+  }
+  .panel-body {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-radius: 2px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-top: 0;
+    p {
+      margin: 0 0 16px;
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.affiliate_marketing h2 {
+  font-size: 15px;
+}
+
+.affiliate_marketing .list-group-item.active,
+.affiliate_marketing .list-group-item.active:focus,
+.affiliate_marketing .list-group-item.active:hover {
+  background-color: #4786ff;
+  border-color: #4786ff;
+}
+
+.affiliate_marketing a.list-group-item,
+.affiliate_marketing button.list-group-item {
+  color: #222;
+}
+
+/* bottom banner */
+.affiliate_marketing .e-book {
+  margin-top: -60px;
+}
+
+.affiliate_marketing .bottom_banner {
+  color: #000000 !important;
+}
+.affiliate_marketing .bottom_banner .ebook-container {
+  display: none;
+}
+
+.affiliate_marketing .subscribe-btn {
+  background-color: #f6c727;
+  border: none;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.affiliate_marketing .subscribe-btn:hover {
+  background-color: rgba(24, 112, 152, 1);
+  color: #fff;
+}
+
+.affiliate_marketing .bottom_banner .banner-header {
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.affiliate_marketing .bottom_banner .banner-title {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.affiliate_marketing .bottom_banner .description {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* !bottom banner */
+
+/* new selection */
+.affiliate_marketing .section_title::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "\2014 \00A0";
+}
+.affiliate_marketing .section_title.subscribe {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.affiliate_marketing .how_section i {
+  font-size: 30px;
+  color: rgba(52, 58, 64, 1);
+}
+
+.affiliate_marketing .how_section .info-header {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+.affiliate_marketing .how_section .column_header {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(23, 15, 73, 1);
+}
+
+.affiliate_marketing .how_section .column_description {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(111, 108, 144, 1);
+}
+
+.affiliate_marketing .benefits_section .benefits_container span {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(111, 108, 144, 1);
+}
+
+.affiliate_marketing .section_title {
+  font-family: Open Sans;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(52, 58, 64, 1);
+}
+
+/* carousel */
+.affiliate_marketing #quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+.affiliate_marketing #quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 90px;
+}
+/* Previous button  */
+.affiliate_marketing #quote-carousel .carousel-control.left {
+  left: -100px;
+}
+/* Next button  */
+.affiliate_marketing #quote-carousel .carousel-control.right {
+  right: -100px !important;
+}
+/* Changes the position of the indicators */
+.affiliate_marketing #quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+.affiliate_marketing #quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+.affiliate_marketing #quote-carousel .carousel-indicators .active {
+  background: #333333;
+}
+.affiliate_marketing #quote-carousel img {
+  width: 250px;
+  height: 100px;
+}
+/* End carousel */
+
+.affiliate_marketing .item blockquote {
+  border-left: none;
+  margin: 0;
+}
+
+.affiliate_marketing .item blockquote img {
+  margin-bottom: 10px;
+}
+
+/* benefits styles */
+.affiliate_marketing .benefits_section i {
+  color: rgba(24, 112, 152, 1);
+}
+
+/* frequently ask section */
+.affiliate_marketing .bottom_body_section .frequently_ask_section .header {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.affiliate_marketing .bottom_body_section .frequently_ask_section .panel-group .panel-heading {
+  font-family: Roboto !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 19px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: rgba(127, 120, 146, 1) !important;
+}
+
+.affiliate_marketing .bottom_body_section .panel-heading .accordion-toggle:after {
+  /* symbol for "opening" panels */
+  font-family: "Glyphicons Halflings"; /* essential for enabling glyphicon */
+  content: "\e114"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
+  color: grey; /* adjust as needed */
+}
+.affiliate_marketing .bottom_body_section .panel-heading .accordion-toggle.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\e080"; /* adjust as needed, taken from bootstrap.css */
+}
+
+/* testimonials styles */
+.affiliate_marketing .client__testimonials h2 {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.affiliate_marketing .client__testimonials h6 {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: rgba(246, 199, 39, 1);
+}
+
+.affiliate_marketing .client__testimonials .carousel-inner .item h3 {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.affiliate_marketing .client__testimonials .carousel-inner .item p {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(111, 108, 144, 1);
+}
+
+.affiliate_marketing .client__testimonials .carousel-inner .item small {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(246, 199, 39, 1);
+}
+.affiliate_marketing blockquote {
+  padding: 0px !important;
+  position: relative;
+  border-radius: 20px;
+}
+
+.affiliate_marketing .client__testimonials .bp_filled_stars {
+  position: absolute;
+  top: 0;
+  color: #fc982c;
+  overflow: hidden;
+  float: left;
+  left: 0;
+}
+
+
+
+.affiliate_marketing .client__testimonials .bp_blank_stars {
+  position: relative;
+  display: inline-block;
+  color: #fc982c;
+  overflow: hidden;
+}
+
+.affiliate_marketing .client__testimonials .bp_blank_stars::before {
+  font-weight: 200;
+  content: "\f006\f006\f006\f006\f006";
+  font-family: fontawesome;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+}
+
+.affiliate_marketing .client__testimonials .bp_filled_stars::before {
+  font-weight: 200;
+  content: "\f005\f005\f005\f005\f005";
+  font-family: fontawesome;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+}
+
+.affiliate_marketing .client__testimonials .apply-now-btn {
+  background-color: rgba(24, 112, 152, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  border: none;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.affiliate_marketing .client__testimonials .apply-now-btn:hover {
+  background-color: rgba(81, 172, 55, 1);
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .affiliate_marketing #quote-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+  }
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+  /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+
+  .affiliate_marketing #quote-carousel .carousel-indicators {
+    bottom: -20px !important;
+  }
+  .affiliate_marketing #quote-carousel .carousel-indicators li {
+    display: inline-block;
+    margin: 0px 5px;
+    width: 15px;
+    height: 15px;
+  }
+  .affiliate_marketing #quote-carousel .carousel-indicators li.active {
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 5000px) {
+  .affiliate_marketing .affiliate_section,
+  .affiliate_marketing .instructor_Banner,
+  .affiliate_marketing .inner__header {
+    padding: 170px 0;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+  .affiliate_marketing .affiliate_section,
+  .affiliate_marketing .instructor_Banner,
+  .affiliate_marketing .inner__header {
+    padding: 120px 0;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1024px) {
+  .affiliate_marketing .affiliate_section h3,
+  .affiliate_marketing .inner__header h3 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .affiliate_marketing .affiliate_section {
+    background-position: -315px 0;
+  }
+
+  .affiliate_marketing .affiliate_section p {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .affiliate_marketing .affiliate_section {
+    padding: 40px 0;
+    background-position: -358px 0;
+  }
+  .affiliate_marketing .affiliate_section h3 {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .affiliate_marketing .affiliate_section p {
+    font-size: 17px;
+    padding-top: 7px;
+    width: 85%;
+  }
+  .affiliate_marketing .affiliate_section a.btn.btn-primary,
+  .affiliate_marketing .affiliate__courses a.btn.btn-primary,
+  .affiliate_marketing .corprt_Inform_form .btn.btn-primary {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 567px) {
+  .affiliate_marketing .affiliate_section h3,
+  .affiliate_marketing .instructor_Banner h3,
+  .affiliate_marketing .inner__header h3 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .affiliate_marketing .affiliate_section p,
+  .affiliate_marketing .instructor_Banner p,
+  .affiliate_marketing .inner__header p {
+    font-size: 15px;
+    padding-top: 7px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .affiliate_marketing .affiliate_section {
+    background-position: -60px 0 !important;
+  }
+  .affiliate_marketing .affiliate_section.certificate__HeaderSect {
+    background-position: 68% center !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .affiliate_marketing .affiliate_section {
+    background-position: 0;
+  }
+  .affiliate_marketing .affiliate_section p,
+  .affiliate_marketing .giftCourse_Banner p {
+    display: none;
+  }
+  .affiliate_marketing .affiliate_section h3,
+  .affiliate_marketing .inner__header h3 {
+    font-size: 24px;
+  }
+}
+
+/***** Surface Duo deveice *****/
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+  .affiliate_marketing .affiliate_section {
+    background-position: -407px 0;
+  }
+  .affiliate_marketing .affiliate_section h3 {
+    width: 78%;
+  }
+  .affiliate_marketing .affiliate_section p {
+    width: 60%;
+  }
+}
+/**** iphone 5/SE ******/
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+  .affiliate_marketing .affiliate_section h3 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .affiliate_marketing .affiliate_section p {
+    width: 70%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .affiliate_marketing #quote-carousel .carousel-control {
+    margin-top: 200px;
+  }
+  .affiliate_marketing #quote-carousel .carousel-control.left {
+    left: -40px;
+  }
+  /* Next button  */
+  .affiliate_marketing #quote-carousel .carousel-control.right {
+    right: -40px !important;
+  }
+  .affiliate_marketing .bottom_body_section .panel-title a {
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .affiliate_marketing .bottom_banner .ebook-container {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .affiliate_marketing #quote-carousel .carousel-control {
+    margin-top: 140px;
+  }
+  .affiliate_marketing #quote-carousel .carousel-control.left {
+    left: -70px;
+  }
+  /* Next button  */
+  .affiliate_marketing #quote-carousel .carousel-control.right {
+    right: -70px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .affiliate_marketing #quote-carousel .carousel-control {
+    margin-top: 90px;
+  }
+  .affiliate_marketing #quote-carousel .carousel-control.left {
+    left: -50px;
+  }
+  /* Next button  */
+  .affiliate_marketing #quote-carousel .carousel-control.right {
+    right: -50px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .affiliate_marketing #quote-carousel .carousel-control {
+    margin-top: 110px;
+  }
+  .affiliate_marketing #quote-carousel .carousel-control.left {
+    left: -50px;
+  }
+  /* Next button  */
+  .affiliate_marketing #quote-carousel .carousel-control.right {
+    right: -50px !important;
+  }
+}
+
+@media (min-width: 1200px){
+  .affiliate_marketing #quote-carousel .carousel-control {
+    margin-top: 80px;
+  }
+ 
+}

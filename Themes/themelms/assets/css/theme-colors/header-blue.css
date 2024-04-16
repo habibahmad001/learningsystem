@@ -1,0 +1,36 @@
+ /* Blue - Navbar */
+.navbar-custom{ background: #03a9f3;}
+.top-nav>li>a{color: #fff}
+.top-profile-menu h2{color: #fff}
+.top-profile-menu .mdi{color: #f0f0f0}
+/* Blue - Navbar ends */
+
+ .my_class{
+     width: 57px;
+     padding: 6px 15px;
+ }
+ .my_class input{
+     display: inline-block;
+ }
+ @media (min-width: 1367px){
+     .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+         padding: 0px 10px;
+     }
+ }
+ #table img {
+     height: 50px;
+     width: 50px;
+ }
+
+ .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+     padding: 0px 8px !important;
+ }
+
+ .dt-button-collection {
+     margin-left: 124px;
+     margin-top: -33px !important;
+     margin-bottom: 10px;
+ }
+
+ .optional-questions .col-md-6.answer_radio label{padding-left:45px;position:relative}
+ .optional-questions .col-md-6.answer_radio label .fa-stack.radio-button{position:absolute;left:0;}

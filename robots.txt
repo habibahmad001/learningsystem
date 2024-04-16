@@ -1,0 +1,9 @@
+User-agent: *
+Crawl-delay: 10
+
+# Directories
+
+#Disallow: /Themes/
+
+# XML sitemaps
+Sitemap: https://nextlearnacademy.com/public/sitemap.xml

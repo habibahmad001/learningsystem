@@ -1,0 +1,102 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "anhskohbo/no-captcha": "^3.2.1",
+        "barryvdh/laravel-debugbar": "^3.4",
+        "barryvdh/laravel-dompdf": "^0.8.7",
+        "cartalyst/stripe-laravel": "^12.0.0",
+        "cmgmyr/messenger": "^2.14",
+        "codebot/entrust": "^7.0",
+        "consoletvs/charts": "^6.5.4",
+        "darryldecode/cart": "^4.2",
+        "fideloper/proxy": "~4.4.0",
+        "fruitcake/laravel-cors": "^3.0",
+        "intervention/image": "^2.3",
+        "jorenvanhocht/laravel-share": "3.2.0",
+        "laravel/cashier": "^12.7",
+        "laravel/framework": "^7.29",
+        "laravel/helpers": "^1.4",
+        "laravel/socialite": "^5.1",
+        "laravel/tinker": "^2.6",
+        "laravel/ui": "^2.0",
+        "laravelcollective/html": "^6.1.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "league/omnipay": "3",
+        "maatwebsite/excel": "~3.1.21",
+        "milon/barcode": "^7.0.0",
+        "omnipay/paypal": "^3.0",
+        "phenx/php-font-lib": "^0.5.2",
+        "phpoffice/phpspreadsheet": "^1.16",
+        "razorpay/razorpay": "^2.5.0",
+        "revolution/laravel-google-sheets": "^5.4",
+        "shipu/themevel": "^2.2.2",
+        "simplesoftwareio/simple-sms": "^3.1.1",
+        "softon/indipay": "^1.2.3",
+        "spatie/laravel-cookie-consent": "^2.12",
+        "spatie/laravel-sitemap": "^5.8",
+        "spatie/laravel-sluggable": "^2.2",
+        "spatie/laravel-tags": "^2.7",
+        "symfony/css-selector": "^5.2",
+        "symfony/dom-crawler": "^5.2",
+        "yajra/laravel-datatables-oracle": "^9.15",
+        "yoeunes/toastr": "^1.2.6"
+    },
+    "require-dev": {
+        "facade/ignition": "^2.0",
+        "fakerphp/faker": "^1.9.1",
+        "mockery/mockery": "^0.9",
+        "nunomaduro/collision": "^4.3",
+        "phpunit/phpunit": "^9.0"
+
+
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "laravel/dusk"
+            ]
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "files":[
+            "app/constants.php",
+            "app/helpers.php",
+            "app/language_helper.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"
+
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ]
+    }
+}
